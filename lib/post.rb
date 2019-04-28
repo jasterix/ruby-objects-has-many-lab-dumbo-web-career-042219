@@ -14,7 +14,8 @@ class Post
     @@all
   end
   
-  def author
+  def author=(writer)
+    author = writer
   end
   
 end
