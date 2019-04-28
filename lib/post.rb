@@ -18,4 +18,8 @@ class Post
     @author = writer
   end
   
+  def author_name
+    author ? post.author : nil
+  end
+  
 end
